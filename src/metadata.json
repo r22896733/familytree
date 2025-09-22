@@ -1,0 +1,5 @@
+{
+  "name": "FamilyTreeApp",
+  "description": "A modern web application to create, visualize, and manage family trees. This interactive application allows users to explore their ancestry through a dynamic, collapsible tree structure built with React and D3.js.",
+  "requestFramePermissions": []
+}

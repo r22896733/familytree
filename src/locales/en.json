@@ -1,0 +1,161 @@
+{
+  "header": {
+    "title": "FamilyTreeApp",
+    "subtitle": "Visualize Your Ancestry",
+    "login": "Login",
+    "logout": "Logout",
+    "mapView": "Map View",
+    "treeView": "Tree View",
+    "resetTree": "Reset Tree",
+    "language": "فارسی",
+    "searchRelationship": "Search Relationship",
+    "search": "Search",
+    "viewLogs": "View Logs",
+    "userManagement": "User Management",
+    "totalVisitorsTooltip": "Total Unique Visitors"
+  },
+  "user": {
+    "role": {
+      "OWNER": "Owner",
+      "CONTRIBUTOR": "Contributor",
+      "OBSERVER": "Observer"
+    }
+  },
+  "login": {
+    "title": "Administrator Login",
+    "subtitle": "Enter your password to gain access.",
+    "password": "Password",
+    "cancel": "Cancel",
+    "loggingIn": "Logging In...",
+    "error": "Login failed. Please check your password."
+  },
+  "treeNode": {
+    "spouse": "Spouse",
+    "present": "Present",
+    "collapseBranch": "Collapse branch",
+    "expandBranch": "Expand branch",
+    "addRelative": "Add relative to {{name}}"
+  },
+  "profilePanel": {
+    "lifeSpan": "Life Span",
+    "spouse": "Spouse",
+    "biography": "Biography",
+    "setAsRoot": "Set as Root",
+    "editProfile": "Edit Profile",
+    "delete": "Delete",
+    "present": "Present",
+    "closeProfile": "Close profile"
+  },
+  "addRelativeModal": {
+    "title": "Add a Relative",
+    "to": "to {{name}}",
+    "relationship": "Relationship",
+    "child": "Child",
+    "spouse": "Spouse",
+    "sibling": "Sibling",
+    "parent": "Parent",
+    "fullName": "Full Name",
+    "gender": "Gender",
+    "birthDate": "Birth Date",
+    "deathDate": "Death Date (Optional)",
+    "location": "Location (Optional)",
+    "locationPlaceholder": "e.g., Paris, France",
+    "photo": "Photo",
+    "cancel": "Cancel",
+    "save": "Save Relative",
+    "fillAllFields": "Please fill in all required fields."
+  },
+  "editPersonModal": {
+    "title": "Edit {{name}}",
+    "subtitle": "Update person's details",
+    "fullName": "Full Name",
+    "gender": "Gender",
+    "birthDate": "Birth Date",
+    "deathDate": "Death Date (Optional)",
+    "location": "Location",
+    "photo": "Photo",
+    "biography": "Biography",
+    "spouseDetails": "Spouse Details",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "fillAllFields": "Please fill in Name, Gender, and Birth Date.",
+    "fillSpouseFields": "Please fill in Spouse's Name, Gender, and Birth Date."
+  },
+  "deleteModal": {
+    "title": "Confirm Deletion",
+    "areYouSure": "Are you sure you want to delete",
+    "warning": "This will permanently remove them and all of their descendants from the family tree. This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Confirm Delete"
+  },
+  "generationControls": {
+    "title": "Generations",
+    "expand": "Expand Gen {{level}}",
+    "collapse": "Collapse Gen {{level}}"
+  },
+  "mapView": {
+    "loading": "Geocoding locations and building map..."
+  },
+  "searchRelationshipModal": {
+    "title": "Find Relationship",
+    "subtitle": "Find the connection between two people",
+    "person1": "Person 1",
+    "person2": "Person 2",
+    "findPath": "Find Path",
+    "close": "Close",
+    "searching": "Finding relationship...",
+    "error": "Could not find a relationship path.",
+    "selectTwoPeople": "Please select two people to find the relationship.",
+    "selectDifferentPeople": "Please select two different people."
+  },
+  "logsModal": {
+    "title": "Activity Logs",
+    "subtitle": "Recent activity in the system",
+    "close": "Close",
+    "loading": "Loading logs...",
+    "error": "Could not fetch activity logs.",
+    "empty": "No activity logs found.",
+    "timestamp": "Timestamp",
+    "user": "User",
+    "ipAddress": "IP",
+    "action": "Action",
+    "details": "Details",
+    "anonymous": "Anonymous",
+    "city": "City",
+    "browser": "Browser"
+  },
+  "userManagement": {
+    "title": "User Management",
+    "subtitle": "Manage contributor accounts",
+    "add": "Add Contributor",
+    "edit": "Edit",
+    "delete": "Delete",
+    "name": "Name",
+    "password": "Password",
+    "passwordOptional": "Password (leave blank to keep unchanged)",
+    "confirmDelete": "Are you sure you want to delete the contributor '{{name}}'?",
+    "addTitle": "Add New Contributor",
+    "editTitle": "Edit Contributor",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading contributors...",
+    "error": "Failed to load contributors.",
+    "empty": "No contributors found.",
+    "successAdd": "Contributor added successfully.",
+    "successUpdate": "Contributor updated successfully.",
+    "successDelete": "Contributor deleted successfully.",
+    "errorAction": "An error occurred. Please try again."
+  },
+  "app": {
+    "loading": "Loading Family Tree...",
+    "errorTitle": "Connection Error",
+    "errorBody": "Failed to fetch family tree data. Please make sure the server is running.",
+    "retry": "Retry",
+    "deleteRootError": "Cannot delete the main root person of the family tree."
+  },
+  "gender": {
+    "MALE": "Male",
+    "FEMALE": "Female",
+    "OTHER": "Other"
+  }
+}

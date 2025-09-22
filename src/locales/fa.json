@@ -1,0 +1,161 @@
+{
+  "header": {
+    "title": "شجره‌نامه",
+    "subtitle": "اصل و نسب خود را تجسم کنید",
+    "login": "ورود",
+    "logout": "خروج",
+    "mapView": "نمای نقشه",
+    "treeView": "نمای درختی",
+    "resetTree": "بازنشانی درخت",
+    "language": "English",
+    "searchRelationship": "جستجوی رابطه",
+    "search": "جستجو",
+    "viewLogs": "مشاهده گزارش‌ها",
+    "userManagement": "مدیریت کاربران",
+    "totalVisitorsTooltip": "تعداد کل بازدیدکنندگان منحصر به فرد"
+  },
+  "user": {
+    "role": {
+      "OWNER": "مالک",
+      "CONTRIBUTOR": "مشارکت‌کننده",
+      "OBSERVER": "ناظر"
+    }
+  },
+  "login": {
+    "title": "ورود مدیر",
+    "subtitle": "برای دسترسی، رمز عبور خود را وارد کنید.",
+    "password": "رمز عبور",
+    "cancel": "انصراف",
+    "loggingIn": "در حال ورود...",
+    "error": "ورود ناموفق بود. لطفاً رمز عبور خود را بررسی کنید."
+  },
+  "treeNode": {
+    "spouse": "همسر",
+    "present": "حاضر",
+    "collapseBranch": "بستن شاخه",
+    "expandBranch": "باز کردن شاخه",
+    "addRelative": "افزودن خویشاوند به {{name}}"
+  },
+  "profilePanel": {
+    "lifeSpan": "طول عمر",
+    "spouse": "همسر",
+    "biography": "زندگی‌نامه",
+    "setAsRoot": "تنظیم به عنوان ریشه",
+    "editProfile": "ویرایش پروفایل",
+    "delete": "حذف",
+    "present": "حاضر",
+    "closeProfile": "بستن پروفایل"
+  },
+  "addRelativeModal": {
+    "title": "افزودن خویشاوند",
+    "to": "به {{name}}",
+    "relationship": "رابطه",
+    "child": "فرزند",
+    "spouse": "همسر",
+    "sibling": "خواهر/برادر",
+    "parent": "والد",
+    "fullName": "نام کامل",
+    "gender": "جنسیت",
+    "birthDate": "تاریخ تولد",
+    "deathDate": "تاریخ وفات (اختیاری)",
+    "location": "مکان (اختیاری)",
+    "locationPlaceholder": "مثال: پاریس، فرانسه",
+    "photo": "عکس",
+    "cancel": "انصراف",
+    "save": "ذخیره خویشاوند",
+    "fillAllFields": "لطفاً تمام فیلدهای الزامی را پر کنید."
+  },
+  "editPersonModal": {
+    "title": "ویرایش {{name}}",
+    "subtitle": "به‌روزرسانی جزئیات شخص",
+    "fullName": "نام کامل",
+    "gender": "جنسیت",
+    "birthDate": "تاریخ تولد",
+    "deathDate": "تاریخ وفات (اختیاری)",
+    "location": "مکان",
+    "photo": "عکس",
+    "biography": "زندگی‌نامه",
+    "spouseDetails": "جزئیات همسر",
+    "cancel": "انصراف",
+    "save": "ذخیره تغییرات",
+    "fillAllFields": "لطفاً نام، جنسیت و تاریخ تولد را پر کنید.",
+    "fillSpouseFields": "لطفاً نام، جنسیت و تاریخ تولد همسر را پر کنید."
+  },
+  "deleteModal": {
+    "title": "تایید حذف",
+    "areYouSure": "آیا از حذف «{{name}}» مطمئن هستید؟",
+    "warning": "این کار باعث حذف دائمی این شخص و تمام فرزندان او از شجره‌نامه می‌شود. این عمل قابل بازگشت نیست.",
+    "cancel": "انصراف",
+    "confirm": "تایید حذف"
+  },
+  "generationControls": {
+    "title": "نسل‌ها",
+    "expand": "باز کردن نسل {{level}}",
+    "collapse": "بستن نسل {{level}}"
+  },
+  "mapView": {
+    "loading": "در حال یافتن مختصات و ساختن نقشه..."
+  },
+  "searchRelationshipModal": {
+    "title": "یافتن رابطه",
+    "subtitle": "ارتباط بین دو شخص را پیدا کنید",
+    "person1": "شخص ۱",
+    "person2": "شخص ۲",
+    "findPath": "یافتن مسیر",
+    "close": "بستن",
+    "searching": "در حال یافتن رابطه...",
+    "error": "مسیر رابطه‌ای یافت نشد.",
+    "selectTwoPeople": "لطفاً برای یافتن رابطه، دو نفر را انتخاب کنید.",
+    "selectDifferentPeople": "لطفاً دو شخص متفاوت را انتخاب کنید."
+  },
+  "logsModal": {
+    "title": "گزارش فعالیت‌ها",
+    "subtitle": "فعالیت‌های اخیر در سیستم",
+    "close": "بستن",
+    "loading": "در حال بارگذاری گزارش‌ها...",
+    "error": "واکشی گزارش فعالیت‌ها با شکست مواجه شد.",
+    "empty": "هیچ گزارش فعالیتی یافت نشد.",
+    "timestamp": "زمان",
+    "user": "کاربر",
+    "ipAddress": "IP",
+    "action": "عملیات",
+    "details": "جزئیات",
+    "anonymous": "ناشناس",
+    "city": "شهر",
+    "browser": "مرورگر"
+  },
+  "userManagement": {
+    "title": "مدیریت کاربران",
+    "subtitle": "مدیریت حساب‌های مشارکت‌کنندگان",
+    "add": "افزودن مشارکت‌کننده",
+    "edit": "ویرایش",
+    "delete": "حذف",
+    "name": "نام",
+    "password": "رمز عبور",
+    "passwordOptional": "رمز عبور (برای عدم تغییر، خالی بگذارید)",
+    "confirmDelete": "آیا از حذف مشارکت‌کننده «{{name}}» مطمئن هستید؟",
+    "addTitle": "افزودن مشارکت‌کننده جدید",
+    "editTitle": "ویرایش مشارکت‌کننده",
+    "save": "ذخیره",
+    "cancel": "انصراف",
+    "loading": "در حال بارگذاری مشارکت‌کنندگان...",
+    "error": "بارگذاری مشارکت‌کنندگان با شکست مواجه شد.",
+    "empty": "هیچ مشارکت‌کننده‌ای یافت نشد.",
+    "successAdd": "مشارکت‌کننده با موفقیت اضافه شد.",
+    "successUpdate": "مشارکت‌کننده با موفقیت به‌روزرسانی شد.",
+    "successDelete": "مشارکت‌کننده با موفقیت حذف شد.",
+    "errorAction": "خطایی روی داد. لطفاً دوباره تلاش کنید."
+  },
+  "app": {
+    "loading": "در حال بارگذاری شجره‌نامه...",
+    "errorTitle": "خطای اتصال",
+    "errorBody": "واکشی اطلاعات شجره‌نامه با شکست مواجه شد. لطفاً از فعال بودن سرور اطمینان حاصل کنید.",
+    "retry": "تلاش مجدد",
+    "deleteRootError": "امکان حذف ریشه اصلی شجره‌نامه وجود ندارد."
+  },
+  "gender": {
+    "MALE": "مرد",
+    "FEMALE": "زن",
+    "OTHER": "دیگر"
+  }
+}
